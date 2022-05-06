@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  column-gap: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container{
+  background-color: rgb(255, 252, 248);
+  height: 500px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 30px;
+  grid-gap: 5px;
+
+}
+.head-button{
+  margin-left: 350px;
+}
+.logo{
+  height: 30px;
+  width: 30px;
+}
+.grid-item-1{
+  background-color: rgb(255, 252, 248);
+  grid-column: span 2;
+  border-radius: 20px;
+  width: 200px;
+  margin-top: 30px;
+}
+.grid-item-2{
+  background-color: rgb(255, 252, 248);
+  grid-column: span 2;
+  border-radius: 20px;
+
+}
+.grid-item-3{
+  background-color:rgb(255, 252, 248);
+  grid-column: span 1;
+  border-radius: 20px;
+
+}
+.grid-item-4{
+  background-color: rgb(255, 252, 248);
+  grid-column: span 2;
+  border-radius: 20px;
+}
+.grid-item-5{
+  background-color:rgb(255, 252, 248);
+  grid-column: span 1;
+  border-radius: 20px;
+}
+.flex-container{
+    height: 130px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+  background-color: rgb(255, 252, 248);
+  margin-top: 70px;
+ 
+}
+.flex-items{
+  background-color: #cccaca;
+  width: 120px;
+  height: 121px;
+
+}
+h3{
+  font-size: small;
+}
+.first-image{
+  height: 270px;
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  
+}
+.second-image{
+  height: 250px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #e44713;
+}
+.third-image{
+  height: 250px;
+  width: 290px;
+  border-radius: 20px;
+}
+.first-heading {
+  font-weight: bold;
+  font-size:x-large;
+}
+.first-message{
+  font-size: small;
+}
+.first-button{
+  font-size: x-small;
+  height: 30px;
+  width: 100px;
+  background-color:#e44713;
+  border-radius: 5px;
+  margin-bottom: 30px;
+ 
+}
+.release{
+  font-size:x-small; 
+}
+.second-heading{
+   
+}
